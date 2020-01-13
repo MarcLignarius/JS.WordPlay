@@ -4,7 +4,7 @@ $(function() {
     //retrieve sentence entered by user, save it as userInput and remove punctuation
     let userInput = $("#userInput")
       .val()
-      .replace(/[\.,-\/#!$%\^&\*;:{}=\-_`~()@\+\?><\[\]\+]/g, "");
+      .replace(/[\.,-\/#!$%"\^&\*;:{}=\-_`~()@\+\?><\[\]\+]/g, "");
     //split userInput into an array of strings, using white space as the separator and save it as inputToArray
     let inputToArray = userInput.split(" ");
     //filter the array for words that are 3 or more characters in length and save it as filteredArray
