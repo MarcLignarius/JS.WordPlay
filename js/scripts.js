@@ -16,6 +16,7 @@ $(function() {
     //reverse the filtered array, turn it back into a string and save it as finalArray
     let finalArray = filteredArray.reverse().join(" ");
     //display finalArray in output div
-    $("#output").text(finalArray);
+    $("#result").text(finalArray);
+    $("#output").show();
   });
 });
