@@ -17,7 +17,7 @@ _This program does the following:_
 
 * _Clone from GitHub_
 * _Open index.html_
-* _Alternatively, launch marclignarius.github.io/JS.WordPlay_
+* _Alternatively, launch https://marclignarius.github.io/JS.WordPlay_
 
 ## Specs
 
