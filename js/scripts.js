@@ -5,6 +5,7 @@ $(function() {
     let userInput = $("#userInput")
       .val()
       .replace(/[\.,-\/#!$%"\^&\*;:{}=\-_`~()@\+\?><\[\]\+]/g, "");
+    // validates that something was submitted in the form
     if (userInput == "") {
         alert("This field is required.");
         return false;
