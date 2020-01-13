@@ -5,6 +5,10 @@ $(function() {
     let userInput = $("#userInput")
       .val()
       .replace(/[\.,-\/#!$%"\^&\*;:{}=\-_`~()@\+\?><\[\]\+]/g, "");
+    if (userInput == "") {
+        alert("This field is required.");
+        return false;
+    }
     //split userInput into an array of strings, using white space as the separator and save it as inputToArray
     let inputToArray = userInput.split(" ");
     //filter the array for words that are 3 or more characters in length and save it as filteredArray
