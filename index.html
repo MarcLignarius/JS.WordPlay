@@ -19,13 +19,31 @@
       </h6>
     </nav>
     <div class="container mt-5">
-      <h3>Instructions:</h3>
-      <ul>
+      <h3 class="mb-3">Instructions:</h3>
+      <ul class="text-muted">
         <li>Create a form where users may enter a sentence.</li>
         <li>Turn that sentence into an array using the split method.</li>
-        <li>Then, loop through this array to build a new array out of every word in the sentence that is 3 or more characters in length.</li>
-        <li>Finally, reverse the order of the new array, join it back together into a string, and display it to the user.</li>
+        <li>
+          Then, loop through this array to build a new array out of every word
+          in the sentence that is 3 or more characters in length.
+        </li>
+        <li>
+          Finally, reverse the order of the new array, join it back together
+          into a string, and display it to the user.
+        </li>
       </ul>
+      <hr class="my-3">
+      <form>
+        <div class="form-group">
+          <label for="userInput"><h3>Enter a sentence or paragraph:</h3></label>
+          <textarea
+            class="form-control"
+            id="userInput"
+            rows="10"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-lg btn-dark">Submit</button>
+      </form>
     </div>
     <footer>
       <h6 class="text-center">Thanks for visiting!</h6>
