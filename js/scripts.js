@@ -11,7 +11,7 @@ $(function() {
             }
         });
         console.log('filteredArray', filteredArray);
-        let finalArray = filteredArray.reverse().toString().replace(/[\,]/g, ' ');;
+        let finalArray = filteredArray.reverse().join(' ');
         console.log('finalArray', finalArray);
     })
 });
