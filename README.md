@@ -31,7 +31,7 @@ _None as of last update_
 
 ## Support and contact details
 
-_Please contact me at marcdaviesriot@gmail.com if you run into any issues or have questions, ideas or feedback._
+_Please contact me via <a href="https://www.linkedin.com/in/marcdaviesriot/">LinkedIn</a> if you have any questions. Your feedback is always welcomed!_
 
 ## Technologies Used
 
